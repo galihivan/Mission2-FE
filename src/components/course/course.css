@@ -1,0 +1,36 @@
+.tab-indicator {
+  border-radius: 5%;
+}
+
+.tutor-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
+.course {
+  width: 100%;
+  max-width: 350px;
+}
+
+.course-description {
+  height: 4.5rem;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  color: var(--price);
+  font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+  .course-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

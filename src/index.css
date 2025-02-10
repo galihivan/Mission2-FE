@@ -1,0 +1,116 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --white: #ffffff;
+  --secondary: #e2fcd9;
+  --google: #f1f1f1;
+  --green: #3ecf4c;
+  --green-light: #c7ffcd;
+  --red: #f64920;
+  --yellow: #ffbd3a;
+  --black: #000000;
+  --light: #fffdf3;
+  --white-smoke: #f5f5f5;
+  --price: #3fcf4e;
+  --black-light: rgba(0, 0, 0, 0.3);
+  --black-light-2: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  background-color: var(--light);
+  font-family: "DM Sans", sans-serif;
+}
+
+.btn-first,
+.btn-first:hover,
+.btn-first:active {
+  color: var(--white);
+  background-color: var(--green);
+  border: none;
+}
+
+.btn-second,
+.btn-second:hover,
+.btn-second:active {
+  color: var(--green);
+  background-color: var(--white);
+  border: 1px solid var(--green);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.user-pic {
+  width: 5%;
+}
+
+.template {
+  min-height: 90vh;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.text_overflow {
+  height: 45%;
+}
+
+.Toastify__toast {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Toastify__toast-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Toastify__toast-icon {
+  display: flex;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 40px;
+  }
+
+  .form_container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form_container {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  main {
+    padding: 20px;
+  }
+}
